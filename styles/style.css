@@ -160,6 +160,11 @@ ol {
   outline: 1px solid #fff;
 }
 
+.search-form__submit-button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px
+}
+
 .search-form__checkbox-list {
   display: flex;
   justify-content: space-around;
@@ -219,7 +224,7 @@ ol {
   position: relative;
   overflow: auto;
   scroll-behavior: smooth;
-  scrollbar-width: none;
+  scrollbar-width: auto;
   block-size: 298px;
   padding: 1px;
 }
